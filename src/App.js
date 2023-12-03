@@ -11,6 +11,8 @@ import TermsOfUse from "./components/pages/TermsOfUse";
 import FrequentlyAskedQuestion from "./components/pages/FrequentlyAskedQuestion";
 import BookAppointment from "./components/pages/BookAppointment";
 import Contact from "./components/pages/Contact";
+import Feedback from "./components/pages/Feedback";
+import Career from "./components/pages/Career";
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
           <Route path="/Visitors" element={<Visitors />} />
           <Route path="/Direction" element={<Direction />} />
           <Route path="/BookAppointment" element={<BookAppointment />} />
+          <Route path="/Feedback" element={<Feedback />} />
           <Route
             path="/FrequentlyAskedQuestion"
             element={<FrequentlyAskedQuestion />}
@@ -33,6 +36,7 @@ function App() {
         <Routes>
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/TermsofUse" element={<TermsOfUse />} />
+          <Route path="/Career" element={<Career />} />
         </Routes>
         <Footer />
       </Router>

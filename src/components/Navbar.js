@@ -128,7 +128,7 @@ function Navbar() {
                   </Link>
                   <div className="dropdown-content">
                     <Link
-                      to="/"
+                      to="/Feedback"
                       onClick={closeMobileMenu}
                       className="white-color dropdown-link"
                     >

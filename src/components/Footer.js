@@ -72,7 +72,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li className="ul-list">
-                  <Link to="/" className="ul-link remove-decor">
+                  <Link to="/Career" className="ul-link remove-decor">
                     Career
                   </Link>
                 </li>
