@@ -1,0 +1,132 @@
+.table-width {
+  width: 100%;
+  max-width: 600px;
+  margin-inline: 0 auto;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+.table-width tr {
+  border-collapse: collapse;
+  border: none;
+  width: 100%;
+}
+.table-width th,
+.table-width td {
+  width: 100%;
+  display: block;
+  text-align: left;
+  font-size: 0.7rem;
+}
+
+.table-width th {
+  color: var(--secondary-color);
+}
+.table-width td {
+  border-bottom: 2px solid var(--grey-color);
+  margin-bottom: 0;
+}
+.Contact_us .form-row .align-right textarea {
+  margin-top: 10px;
+  min-height: 180px;
+}
+.form-width {
+  margin-top: 1.5em;
+}
+.Contact_us .form-row input[type="text"],
+.Contact_us .form-row .col-95 textarea {
+  padding: 0.7em;
+  font-family: var(--inter-font);
+}
+.Contact_us .form-row input[type="text"] {
+  margin-bottom: 0.15em;
+}
+.Contact_us .form-row button {
+  margin-top: 0;
+}
+.Contact_us .address-email {
+  margin-top: 6em;
+}
+.Contact_us .address-email h5 {
+  font-weight: 800;
+  width: 100%;
+
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+}
+.Contact_us .address-email span {
+  margin-left: 0.5em;
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+}
+.Contact_us .address-email a b {
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  .table-width {
+    max-width: 700px;
+  }
+  .table-width th,
+  .table-width td {
+    width: 100%;
+    display: inline-block;
+    padding: 1em 0;
+    border-bottom: 2px solid var(--grey-color);
+  }
+
+  .table-width th {
+    width: 70%;
+    font-weight: 600;
+  }
+  .table-width td {
+    width: 30%;
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .Contact_us .form-row {
+    min-height: 80px;
+  }
+  .Contact_us .form-row input[type="text"]:not(:first-child) {
+    margin-top: -6em;
+  }
+  .Contact_us .form-row .align-right {
+    display: block;
+    margin-left: auto;
+    height: 100%;
+  }
+  .Contact_us .form-row .align-right textarea {
+    margin-top: auto;
+    margin-top: 9px;
+    min-height: 160px;
+  }
+  .Contact_us .address-email {
+    margin-top: 1em;
+  }
+  .Contact_us .address-email #email {
+    font-size: 1.25em;
+  }
+  .Contact_us .address-email h5 {
+    font-weight: 700;
+  }
+  .Contact_us .address-email a b {
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 1200px) {
+  .table-width {
+    max-width: 800px;
+  }
+  .table-width th,
+  .table-width td {
+    font-size: 0.7rem;
+  }
+}
+@media (min-width: 1400px) {
+  .table-width {
+    max-width: 900px;
+  }
+}

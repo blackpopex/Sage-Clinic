@@ -1,0 +1,87 @@
+.Book_Appointment p {
+  max-width: 600px;
+}
+.form-width {
+  width: 100%;
+  max-width: 600px;
+  margin-inline: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.form-width-header {
+  max-width: 600px;
+}
+.form-width h4 {
+  margin-bottom: 1em;
+}
+.form-width label {
+  font-weight: 400;
+}
+.form-width .label-paragraph label {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.form-row {
+  margin-bottom: 1em;
+  width: 100%;
+}
+.form-row input[type="text"],
+.form-row textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: var(--grey-color);
+  padding: 0.5em;
+  display: inline-block;
+  resize: none;
+}
+.form-row input[type="text"]:focus,
+.form-row textarea:focus {
+  border: none;
+  outline: none;
+}
+
+.form-row .col-49_5 {
+  margin-bottom: 0.5em;
+}
+.form-row button {
+  float: right;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  font-weight: 500;
+}
+
+@media (min-width: 992px) {
+  .Book_Appointment p {
+    max-width: 700px;
+  }
+  .form-width {
+    max-width: 700px;
+  }
+  .form-width-header {
+    max-width: 700px;
+  }
+}
+@media (min-width: 1200px) {
+  .Book_Appointment p {
+    max-width: 800px;
+  }
+  .form-width {
+    max-width: 800px;
+  }
+  .form-width-header {
+    max-width: 800px;
+  }
+}
+@media (min-width: 1400px) {
+  .Book_Appointment p {
+    max-width: 900px;
+  }
+  .form-width {
+    max-width: 900px;
+  }
+  .form-width-header {
+    max-width: 900px;
+  }
+}

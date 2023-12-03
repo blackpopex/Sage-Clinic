@@ -1,0 +1,12 @@
+.test-wrapper h1 {
+  font-size: 8rem;
+  margin-bottom: -10px;
+}
+.test-wrapper ul li {
+  line-height: 1.62;
+  margin-bottom: 1em;
+  font-weight: 500;
+}
+.test-wrapper ul li:last-child {
+  margin-bottom: 0;
+}

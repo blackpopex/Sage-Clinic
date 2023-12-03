@@ -1,0 +1,85 @@
+#Quest {
+  font-size: 4em;
+  color: var(--secondary-color);
+}
+.Question-mark {
+  max-width: 300px;
+  margin-inline: auto;
+  text-align: center;
+  line-height: 0;
+}
+.Question-mark h1 {
+  font-family: var(--playfair-font);
+  font-size: 2em;
+  font-weight: 800;
+  margin-top: -15px;
+  max-width: 300px;
+  margin-inline: auto;
+  display: block;
+}
+
+.myaccordion:after {
+  content: "\002b";
+  font-size: 0.8rem;
+  color: var(--green-color);
+  float: right;
+  margin-left: 5px;
+}
+.nowactive:after {
+  content: "\2212";
+  color: var(--secondary-color);
+  transition: 500ms;
+}
+.my-dropdown-content {
+  background-color: var(--mid-primary-color);
+  width: 100%;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+}
+
+.itemized-questions ul li {
+  margin-bottom: 0.25em;
+}
+.itemized-questions ul li button {
+  width: 100%;
+  text-align: left;
+  background-color: var(--grey-color);
+}
+
+@media (min-width: 768px) {
+  .Question-mark {
+    margin-inline: 0 auto;
+    text-align: left;
+  }
+  #Quest {
+    font-size: 5em;
+  }
+  .Question-mark h1 {
+    font-size: 2.5em;
+  }
+}
+@media (min-width: 992px) {
+  #Quest {
+    font-size: 6em;
+  }
+  .Question-mark h1 {
+    font-size: 3em;
+  }
+}
+@media (min-width: 1200px) {
+  #Quest {
+    font-size: 7em;
+  }
+  .Question-mark h1 {
+    font-size: 3.5em;
+  }
+}
+@media (min-width: 1600px) {
+  #Quest {
+    font-size: 8em;
+  }
+  .Question-mark h1 {
+    font-size: 4em;
+  }
+}
