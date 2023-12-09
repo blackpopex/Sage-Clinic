@@ -3,23 +3,9 @@ import Pagetitlesection from "../Pagetitlesection";
 import Paragraph from "../Paragraph";
 import { Icon } from "@iconify/react";
 import "./FrequentlyAskedQuestion.css";
+import FaqAccordion from "../FaqAccordion";
 
 function FrequentlyAskedQuestion() {
-  var largescreenAcc, m;
-  largescreenAcc = document.getElementsByClassName("myaccordion");
-  for (m = 0; m < largescreenAcc.length; m++) {
-    largescreenAcc[m].addEventListener("click", function () {
-      this.classList.toggle("nowactive");
-
-      var nextElement = this.nextElementSibling;
-      if (nextElement.style.maxHeight) {
-        nextElement.style.maxHeight = null;
-      } else {
-        nextElement.style.maxHeight = nextElement.scrollHeight + "px";
-      }
-    });
-  }
-
   return (
     <>
       <div className="Frequently_Asked-Quesiton">
@@ -40,171 +26,69 @@ function FrequentlyAskedQuestion() {
                 <div className="col-70">
                   <div className="itemized-questions">
                     <ul className="flex-colum">
-                      <li className="my-dropdown">
-                        <button className="myaccordion green-color">
-                          About Us
-                        </button>
-                        <div className="my-dropdown-content">
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text Lorem Ipsum is simply
-                            dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy
-                            text
-                          </p>
-                        </div>
+                      <li>
+                        <FaqAccordion
+                          question="Does Sage Clinic have a Gynaecologist ?"
+                          answer="Yes we do have a Gynaecologist"
+                        />
                       </li>
-                      <li className="my-dropdown">
-                        <button className="myaccordion green-color">
-                          About Us
-                        </button>
-                        <div className="my-dropdown-content">
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text Lorem Ipsum is simply
-                            dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy
-                            text
-                          </p>
-                        </div>
+                      <div className="faint-border-line"></div>
+                      <li>
+                        <FaqAccordion
+                          question="Does Sage Clinic have a Gynaecologist ?"
+                          answer="Yes we do have a Gynaecologist"
+                        />
                       </li>
-                      <li className="my-dropdown">
-                        <button className="myaccordion green-color">
-                          About Us
-                        </button>
-                        <div className="my-dropdown-content">
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text Lorem Ipsum is simply
-                            dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy
-                            text
-                          </p>
-                        </div>
+                      <div className="faint-border-line"></div>
+                      <li>
+                        <FaqAccordion
+                          question="Does Sage Clinic have a Gynaecologist ?"
+                          answer="Yes we do have a Gynaecologist"
+                        />
                       </li>
-                      <li className="my-dropdown">
-                        <button className="myaccordion green-color">
-                          About Us
-                        </button>
-                        <div className="my-dropdown-content">
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text Lorem Ipsum is simply
-                            dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy
-                            text
-                          </p>
-                        </div>
+                      <div className="faint-border-line"></div>
+                      <li>
+                        <FaqAccordion
+                          question="Does Sage Clinic have a Gynaecologist ?"
+                          answer="Yes we do have a Gynaecologist"
+                        />
                       </li>
-                      <li className="my-dropdown">
-                        <button className="myaccordion green-color">
-                          About Us
-                        </button>
-                        <div className="my-dropdown-content">
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text Lorem Ipsum is simply
-                            dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy
-                            text
-                          </p>
-                        </div>
+                      <div className="faint-border-line"></div>
+                      <li>
+                        <FaqAccordion
+                          question="Does Sage Clinic have a Gynaecologist ?"
+                          answer="Yes we do have a Gynaecologist"
+                        />
                       </li>
-                      <li className="my-dropdown">
-                        <button className="myaccordion green-color">
-                          About Us
-                        </button>
-                        <div className="my-dropdown-content">
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text Lorem Ipsum is simply
-                            dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy
-                            text
-                          </p>
-                        </div>
+                      <div className="faint-border-line"></div>
+                      <li>
+                        <FaqAccordion
+                          question="Does Sage Clinic have a Gynaecologist ?"
+                          answer="Yes we do have a Gynaecologist"
+                        />
                       </li>
-                      <li className="my-dropdown">
-                        <button className="myaccordion green-color">
-                          About Us
-                        </button>
-                        <div className="my-dropdown-content">
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text Lorem Ipsum is simply
-                            dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy
-                            text
-                          </p>
-                        </div>
+                      <div className="faint-border-line"></div>
+                      <li>
+                        <FaqAccordion
+                          question="Does Sage Clinic have a Gynaecologist ?"
+                          answer="Yes we do have a Gynaecologist"
+                        />
                       </li>
-                      <li className="my-dropdown">
-                        <button className="myaccordion green-color">
-                          About Us
-                        </button>
-                        <div className="my-dropdown-content">
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text Lorem Ipsum is simply
-                            dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy
-                            text
-                          </p>
-                        </div>
+                      <div className="faint-border-line"></div>
+                      <li>
+                        <FaqAccordion
+                          question="Does Sage Clinic have a Gynaecologist ?"
+                          answer="Yes we do have a Gynaecologist"
+                        />
                       </li>
-                      <li className="my-dropdown">
-                        <button className="myaccordion green-color">
-                          About Us
-                        </button>
-                        <div className="my-dropdown-content">
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text Lorem Ipsum is simply
-                            dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy
-                            text
-                          </p>
-                        </div>
+                      <div className="faint-border-line"></div>
+                      <li>
+                        <FaqAccordion
+                          question="Does Sage Clinic have a Gynaecologist ?"
+                          answer="Yes we do have a Gynaecologist"
+                        />
                       </li>
-                      <li className="my-dropdown">
-                        <button className="myaccordion green-color">
-                          About Us
-                        </button>
-                        <div className="my-dropdown-content">
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text Lorem Ipsum is simply
-                            dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy
-                            text
-                          </p>
-                        </div>
-                      </li>
-                      <li className="my-dropdown">
-                        <button className="myaccordion green-color">
-                          About Us
-                        </button>
-                        <div className="my-dropdown-content">
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text Lorem Ipsum is simply
-                            dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy
-                            text
-                          </p>
-                        </div>
-                      </li>
+                      <div className="faint-border-line"></div>
                     </ul>
                   </div>
                 </div>

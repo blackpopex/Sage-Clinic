@@ -1,6 +1,6 @@
 import React from "react";
 import Pagetitlesection from "../Pagetitlesection";
-import Button from "../Button";
+import DirectionBtn from "../DirectionBtn";
 import "./Direction.css";
 
 function Direction() {
@@ -42,20 +42,16 @@ function Direction() {
             loading="lazy"
             id="googleMap"
           ></iframe>
-        </div>
-        <section>
-          <div className="container">
-            <div className="m-tp1">
-              <a
-                href="https://www.google.com/maps/dir//Sage+Clinic,+29+Okere+Ugborikoko+Road,+Warri,+332104,+Delta/@5.5346587,5.7525573,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1041ad0c761eb58b:0x5ae911c432fef009!2m2!1d5.7551322!2d5.5346587?entry=ttu"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Button className="bg-green" innertext="Get Direction" />
-              </a>
-            </div>
+          <div className="abt-btn bg-green">
+            <a
+              href="https://www.google.com/maps/dir//Sage+Clinic,+29+Okere+Ugborikoko+Road,+Warri,+332104,+Delta/@5.5346587,5.7525573,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1041ad0c761eb58b:0x5ae911c432fef009!2m2!1d5.7551322!2d5.5346587?entry=ttu"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <DirectionBtn innertext="Get Driving Direction" />
+            </a>
           </div>
-        </section>
+        </div>
       </div>
     </>
   );

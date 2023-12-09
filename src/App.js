@@ -13,6 +13,10 @@ import BookAppointment from "./components/pages/BookAppointment";
 import Contact from "./components/pages/Contact";
 import Feedback from "./components/pages/Feedback";
 import Career from "./components/pages/Career";
+import Testimonies from "./components/pages/Testimonies";
+import OurStory from "./components/pages/OurStory";
+import MissionVisionValues from "./components/pages/MissionVisionValues";
+import MeetOurTeam from "./components/pages/MeetOurTeam";
 
 function App() {
   return (
@@ -31,6 +35,13 @@ function App() {
             element={<FrequentlyAskedQuestion />}
           />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Testimonies" element={<Testimonies />} />
+          <Route path="/OurStory" element={<OurStory />} />
+          <Route
+            path="/MissionVisionValues"
+            element={<MissionVisionValues />}
+          />
+          <Route path="/MeetOurTeam" element={<MeetOurTeam />} />
         </Routes>
 
         <Routes>

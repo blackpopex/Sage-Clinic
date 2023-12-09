@@ -1,0 +1,69 @@
+.Box {
+  width: 100px;
+  min-height: 50px;
+  padding: 0.5em 0.25em;
+  text-align: center;
+}
+.Box h3 {
+  margin-bottom: 0.25em;
+  line-height: 1;
+  box-shadow: inset;
+}
+.Box h6 {
+  line-height: 1;
+}
+
+@media (min-width: 600px) {
+  .Box {
+    width: 120px;
+    min-height: 100px;
+    padding: 0.5em;
+  }
+  .Box h3 {
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+  }
+  .Box h6 {
+    line-height: 1.2;
+    font-weight: 600;
+  }
+}
+@media (min-width: 768px) {
+  .Box {
+    width: 140px;
+    min-height: 120px;
+  }
+  .Box h3 {
+    margin-bottom: 0.25em;
+    margin-top: 0.5em;
+  }
+  .Box h6 {
+    line-height: 1.2;
+    font-weight: 600;
+  }
+}
+@media (min-width: 992px) {
+  .Box {
+    width: 160px;
+    min-height: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .Box {
+    width: 190px;
+    min-height: 140px;
+  }
+}
+@media (min-width: 1600px) {
+  .Box {
+    width: 240px;
+    min-height: 160px;
+  }
+  .Box h3 {
+    margin-top: 0.5em;
+  }
+  .Box h6 {
+    max-width: 100px;
+    margin-inline: auto;
+  }
+}

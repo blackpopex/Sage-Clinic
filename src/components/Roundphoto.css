@@ -1,0 +1,145 @@
+.round_photo-wrapper {
+  position: relative;
+  max-width: 180px;
+  height: 180px;
+  margin-bottom: 2em;
+}
+.profile-details {
+  position: absolute;
+  z-index: 99;
+  background-color: var(--grey-color);
+  min-width: 300px;
+  height: auto;
+  top: 100%;
+  margin-top: -20px;
+  margin-left: 50px;
+  height: auto;
+  padding: 0.5em 1em 0.75em 0.6em;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.round_photo-wrapper:hover .profile-details {
+  transform: translateX(0);
+  opacity: 1;
+}
+.profile-details h5 {
+  display: flex;
+  align-items: center;
+}
+.profile-details .phone {
+  margin-right: 0.5em;
+  font-size: 1.5em;
+}
+.profile-details p {
+  margin-top: 0.75em;
+}
+.photo-content {
+  position: relative;
+  max-width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.photo-content .staffphoto {
+  width: 100%;
+  height: 180px;
+  border-radius: 50%;
+}
+.photo-content .abt-pos {
+  position: absolute;
+  right: -10px;
+  bottom: 20px;
+  width: auto;
+  padding: 0.5em 1.2em 0.5em 0.5em;
+  background-image: linear-gradient(rgba(0, 66, 32, 0.8), rgba(0, 66, 32, 0.6));
+  display: flex;
+  display: -ms-flexbox;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 0.75;
+}
+
+.align-center .photo-content .abt-pos {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.6)
+  );
+}
+.photo-content .abt-pos h5 {
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+.align-center .photo-content .abt-pos h5 {
+  color: var(--primary-color);
+}
+.photo-content .abt-pos h6 {
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+.align-center .photo-content .abt-pos h6 {
+  color: black;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .slide-left .profile-details {
+    transform: translateX(100%);
+    margin-left: -150px;
+  }
+
+  .round_photo-wrapper:hover .slide-left .profile-details {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@media (min-width: 992px) {
+  .round_photo-wrapper {
+    max-width: 200px;
+    height: 200px;
+  }
+
+  .photo-content {
+    max-width: 200px;
+    height: 200px;
+  }
+  .photo-content .staffphoto {
+    width: 100%;
+    height: 200px;
+  }
+  .photo-content .abt-pos {
+    right: -5px;
+    line-height: 0.7;
+  }
+  .profile-details {
+    min-width: 400px;
+    margin-top: -20px;
+    margin-left: 52px;
+    padding: 0.5em 0.6em 0.75em;
+  }
+  .photo-content .abt-pos h5 {
+    font-size: 0.8rem;
+  }
+  .photo-content .abt-pos h6 {
+    font-size: 0.65rem;
+  }
+}
+@media (min-width: 1200px) {
+  .profile-details {
+    padding: 0.75em 0.75em 0.75em;
+  }
+  .profile-details h5 {
+    font-size: 0.9rem;
+  }
+  .slide-left .profile-details {
+    transform: translateX(100%);
+    margin-left: -100px;
+  }
+}
+@media (min-width: 1600px) {
+  .slide-left .profile-details {
+    margin-left: 50px;
+    transform: translateX(-100%);
+  }
+}

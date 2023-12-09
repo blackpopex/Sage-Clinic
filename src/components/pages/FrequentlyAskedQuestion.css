@@ -18,33 +18,13 @@
   display: block;
 }
 
-.myaccordion:after {
-  content: "\002b";
-  font-size: 0.8rem;
-  color: var(--green-color);
-  float: right;
-  margin-left: 5px;
-}
-.nowactive:after {
-  content: "\2212";
-  color: var(--secondary-color);
-  transition: 500ms;
-}
-.my-dropdown-content {
-  background-color: var(--mid-primary-color);
-  width: 100%;
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 0.5s ease-out;
-}
-
-.itemized-questions ul li {
-  margin-bottom: 0.25em;
-}
 .itemized-questions ul li button {
   width: 100%;
   text-align: left;
   background-color: var(--grey-color);
+}
+.itemized-questions ul .faint-border-line {
+  margin: 0;
 }
 
 @media (min-width: 768px) {

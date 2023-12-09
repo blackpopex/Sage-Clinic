@@ -17,6 +17,7 @@ img.map_figure {
 }
 .google-map-code {
   position: relative;
+  margin-bottom: 6em;
 }
 .fade {
   position: absolute;
@@ -42,6 +43,23 @@ img.map_figure {
   #googleMap {
     width: 100%;
   }
+  .abt-btn {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .abt-btn button {
+    width: 200px;
+    height: 90px;
+    font-size: 0.65em;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+  }
 }
 @media (min-width: 992px) {
   img.map_figure {
@@ -51,6 +69,43 @@ img.map_figure {
   #googleMap {
     height: 500px;
   }
+  .abt-btn {
+    z-index: 10;
+    top: 50%;
+    left: 72%;
+    transform: translate(-50%, -72%);
+  }
+
+  .abt-btn button {
+    width: 220px;
+    height: 100px;
+    font-size: 0.7em;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+  }
+  #angle-right {
+    font-size: 2em;
+    margin-left: 0.25em;
+  }
+
+  .abt-btn button:hover #angle-right {
+    animation-name: animate-icon;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes animate-icon {
+    from {
+      transform: translateX(10px);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(-10px);
+      opacity: 0.5;
+    }
+  }
 }
 @media (min-width: 1200px) {
   img.map_figure {
@@ -58,5 +113,27 @@ img.map_figure {
   }
   #googleMap {
     height: 600px;
+    width: 100%;
+  }
+
+  .abt-btn button {
+    width: 280px;
+    height: 125px;
+    font-size: 0.8em;
+  }
+  #angle-right {
+    font-size: 2.5em;
+    margin-left: 0.25em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .abt-btn button {
+    width: 300px;
+    height: 150px;
+    font-size: 0.9em;
+  }
+  #angle-right {
+    font-size: 3em;
   }
 }

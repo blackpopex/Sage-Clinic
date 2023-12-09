@@ -80,33 +80,33 @@ function Navbar() {
               >
                 <div className="mobile-bg-image" id="hide-on-lg-screen"></div>
                 <li className="lg-dropdown nav-Item">
-                  <Link to="/" className="nav-Links accordion white-color">
+                  <Link className="nav-Links accordion white-color">
                     About Us
                   </Link>
                   <div className="dropdown-content">
                     <Link
-                      to="/"
+                      to="/OurStory"
                       onClick={closeMobileMenu}
                       className="white-color dropdown-link"
                     >
                       Our Story
                     </Link>
                     <Link
-                      to="/"
+                      to="/MeetOurTeam"
                       onClick={closeMobileMenu}
                       className="white-color dropdown-link"
                     >
                       The Team
                     </Link>
                     <Link
-                      to="/"
+                      to="/MissionVisionValues"
                       onClick={closeMobileMenu}
                       className="white-color dropdown-link"
                     >
                       Mission, Vision & Values
                     </Link>
                     <Link
-                      to="/"
+                      to="/Testimonies"
                       onClick={closeMobileMenu}
                       className="white-color dropdown-link"
                     >
@@ -123,7 +123,7 @@ function Navbar() {
                 </li>
 
                 <li className="lg-dropdown nav-Item">
-                  <Link to="/" className="nav-Links accordion white-color">
+                  <Link className="nav-Links accordion white-color">
                     Patient's Support
                   </Link>
                   <div className="dropdown-content">

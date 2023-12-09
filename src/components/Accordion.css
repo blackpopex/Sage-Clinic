@@ -1,0 +1,71 @@
+.accoridion-wrapper {
+  padding: 0.5em 0;
+}
+
+.accoridion-wrapper .content-wrapper {
+  padding: 25em 0;
+  margin-top: 1em;
+}
+.accoridion-wrapper .accordion-btn {
+  cursor: pointer;
+  width: 100%;
+  background-color: inherit;
+  text-align: left;
+  padding: 0;
+  font-weight: 300;
+}
+.accoridion-wrapper .accordion-btn::after {
+  content: "\002B";
+  font-size: 1em;
+  float: right;
+  font-weight: 300;
+  color: var(--secondary-color);
+}
+.accoridion-wrapper .acc-activated::after {
+  content: "\2212";
+}
+
+.accoridion-wrapper .accordionpanel {
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.5s ease;
+  width: 100%;
+  padding: 0 18px;
+}
+.accoridion-wrapper .accordionpanel .content-wrapper {
+  padding: 1em 0;
+}
+
+/*****width for picture accordion*****/
+/****WIDTHS*****/
+.width-35 {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .width-35 {
+    width: 35%;
+    margin-bottom: 0;
+  }
+  .split {
+    display: flex;
+    display: -ms-flexbox;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 4em;
+  }
+  .split:last-child {
+    margin-bottom: 10em;
+  }
+  .align-center {
+    display: flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 4em;
+  }
+}

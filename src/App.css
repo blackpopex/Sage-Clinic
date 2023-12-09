@@ -9,7 +9,7 @@
 :root {
   --primary-color: #004220;
   --mid-primary-color: #09532c;
-  --secondary-color: #8cb68b;
+  --secondary-color: #8db58c;
   --grey-color: #efefef;
   --white-color: #ffffff;
   --inter-font: "Inter", sans-serif;
@@ -304,6 +304,10 @@ button {
 .faint-border-line {
   border: 1px solid var(--grey-color);
   margin: 1.5em 0;
+}
+
+.faint-border-line2 {
+  border: 1px solid var(--primary-color);
 }
 
 .form-container form input[type="text"],
