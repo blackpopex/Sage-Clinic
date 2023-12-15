@@ -9,7 +9,7 @@ import Accordion2 from "../Accordion2";
 function MeetOurTeam() {
   return (
     <>
-      <div className="Meet_Our_Team">
+      <div className="Meet_Our_Team section-header-margin-top ">
         <Pagetitlesection pagetitle="Meet Our Team" />
         <div className="container">
           <section>

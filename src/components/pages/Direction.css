@@ -17,7 +17,7 @@ img.map_figure {
 }
 .google-map-code {
   position: relative;
-  margin-bottom: 6em;
+  margin-bottom: 0;
 }
 .fade {
   position: absolute;
@@ -33,6 +33,24 @@ img.map_figure {
   height: 400px;
 }
 
+.abt-btn {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.abt-btn button {
+  width: 200px;
+  height: 90px;
+  font-size: 0.65em;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+}
+
 @media (min-width: 600px) {
   img.map_figure {
     max-width: 600px;
@@ -42,23 +60,6 @@ img.map_figure {
 @media (min-width: 768px) {
   #googleMap {
     width: 100%;
-  }
-  .abt-btn {
-    position: absolute;
-    z-index: 10;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .abt-btn button {
-    width: 200px;
-    height: 90px;
-    font-size: 0.65em;
-    background-color: var(--primary-color);
-    color: var(--white-color);
-    display: flex;
-    align-items: center;
   }
 }
 @media (min-width: 992px) {

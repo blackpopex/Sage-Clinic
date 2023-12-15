@@ -5,7 +5,7 @@ import "./Feedback.css";
 function Feedback() {
   return (
     <>
-      <div className="Patient_feedback">
+      <div className="Patient_feedback section-header-margin-top ">
         <Pagetitlesection pagetitle="Patient's Feedback" />
         <section>
           <div className="container">

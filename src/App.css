@@ -7,7 +7,7 @@
   ****/
 
 :root {
-  --primary-color: #004220;
+  --primary-color: rgb(0, 66, 32);
   --mid-primary-color: #09532c;
   --secondary-color: #8db58c;
   --grey-color: #efefef;
@@ -158,6 +158,21 @@ label {
   width: 100%;
   display: block;
 }
+.section-header-margin-top {
+  margin-top: 3.9em;
+}
+.Hero-section {
+  margin-top: 4em;
+}
+
+@media (min-width: 768px) {
+  .section-header-margin-top {
+    margin-top: 5.2em;
+  }
+  .Hero-section {
+    margin-top: 5.2em;
+  }
+}
 
 @media (min-width: 992px) {
   h1 {
@@ -180,7 +195,7 @@ label {
   }
 
   p,
-  .remove-decor,
+  a .remove-decor,
   .test-links,
   .unorderlist li {
     font-size: 0.7rem;
@@ -188,6 +203,9 @@ label {
   p {
     margin-bottom: 0.5em;
     line-height: 1.65;
+  }
+  .section-header-margin-top {
+    margin-top: 5.5em;
   }
 }
 
@@ -224,7 +242,7 @@ label {
     font-size: 0.7rem;
   }
   p,
-  .unorderlist li {
+  a .unorderlist li {
     font-size: 0.75rem;
   }
 }
@@ -236,7 +254,7 @@ label {
 }
 
 section {
-  padding: 3rem 0;
+  padding: 4em 0;
 }
 
 img {
@@ -293,6 +311,9 @@ button {
   color: var(--secondary-color);
   margin-right: 0.25em;
   line-height: 0;
+}
+.text-center {
+  text-align: center;
 }
 
 @media (min-width: 1200px) {

@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "../components/Sage-logo.png";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
   const [click, setState] = useState(false);
+  const [animateNavbar, setNavbarPadding] = useState(false);
   const toggleMenu = () => setState(!click);
   const closeMobileMenu = () => setState(false);
 
@@ -22,6 +23,16 @@ function Navbar() {
     });
   }
 
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        setNavbarPadding(true);
+      } else {
+        setNavbarPadding(false);
+      }
+    });
+  }, []);
+
   return (
     <>
       <header>
@@ -29,7 +40,13 @@ function Navbar() {
           <div className="container flex">
             <div className="brand-Wrapper">
               <Link to="/">
-                <img src={Logo} alt="Sage Logo" className="brand-logo" />
+                <img
+                  src={Logo}
+                  alt="Sage Logo"
+                  className="brand-logo"
+                  style={{ padding: animateNavbar ? "0.15px 0" : "8px 0" }}
+                  id="myLogo"
+                />
               </Link>
             </div>
             <div className="social-links">

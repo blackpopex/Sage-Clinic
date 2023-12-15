@@ -27,6 +27,7 @@
   width: 100%;
 }
 .form-row input[type="text"],
+.form-row select,
 .form-row textarea {
   width: 100%;
   border: none;
@@ -37,6 +38,7 @@
   resize: none;
 }
 .form-row input[type="text"]:focus,
+.form-row select:focus,
 .form-row textarea:focus {
   border: none;
   outline: none;

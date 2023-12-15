@@ -9,7 +9,7 @@ import Unorderlist1 from "../Unorderlist1";
 function Visitors() {
   return (
     <>
-      <div className="Visitors">
+      <div className="Visitors section-header-margin-top ">
         <Pagetitlesection pagetitle="Visitors" />
         <div className="container">
           <section>

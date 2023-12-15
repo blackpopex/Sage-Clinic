@@ -8,7 +8,7 @@ import FaqAccordion from "../FaqAccordion";
 function FrequentlyAskedQuestion() {
   return (
     <>
-      <div className="Frequently_Asked-Quesiton">
+      <div className="Frequently_Asked-Quesiton section-header-margin-top ">
         <Pagetitlesection pagetitle="Frequently Asked Questions" />
 
         <section>

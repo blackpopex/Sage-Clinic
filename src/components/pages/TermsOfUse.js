@@ -5,7 +5,7 @@ import Pagetitlesection from "../Pagetitlesection";
 function TermsOfUse() {
   return (
     <>
-      <div className="Privacy_Policy">
+      <div className="Privacy_Policy section-header-margin-top ">
         <Pagetitlesection pagetitle="Terms of Use" />
       </div>
       <div className="container">

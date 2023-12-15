@@ -8,10 +8,10 @@ import "./MissionVisionValues.css";
 function MissionVisionValues() {
   return (
     <>
-      <div className="Key_statement_wrapper">
+      <div className="Key_statement_wrapper section-header-margin-top ">
         <Pagetitlesection pagetitle="Mission, Vision & Values" />
         <div className="container">
-          <section>
+          <section className="introductory-pararaph">
             <h3 className="green-color">Key Statements</h3>
             <Paragraph ptext="A healthcare provider's mission, vision, and values statements help them determine exactly what they want to accomplish and how they can give their patients the kind of treatment they deserve.A healthcare provider's mission, vision, and values statements help them determine exactly what they want to accomplish and how they can give their patients the kind of treatment they deserve." />
           </section>

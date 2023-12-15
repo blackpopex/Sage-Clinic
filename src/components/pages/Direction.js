@@ -6,7 +6,7 @@ import "./Direction.css";
 function Direction() {
   return (
     <>
-      <div className="Map_and_direction">
+      <div className="Map_and_direction section-header-margin-top ">
         <Pagetitlesection pagetitle="Map & Direction" />
         <div className="container">
           <section>

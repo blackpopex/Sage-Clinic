@@ -5,7 +5,7 @@ import Paragraph from "../Paragraph";
 function PrivacyPolicy() {
   return (
     <>
-      <div className="Privacy_Policy">
+      <div className="Privacy_Policy section-header-margin-top ">
         <Pagetitlesection pagetitle="Privacy Policy" />
       </div>
       <div className="container">

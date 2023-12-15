@@ -17,6 +17,7 @@ import Testimonies from "./components/pages/Testimonies";
 import OurStory from "./components/pages/OurStory";
 import MissionVisionValues from "./components/pages/MissionVisionValues";
 import MeetOurTeam from "./components/pages/MeetOurTeam";
+import BacktoTopBTN from "./components/BacktoTopBTN";
 
 function App() {
   return (
@@ -51,6 +52,9 @@ function App() {
         </Routes>
         <Footer />
       </Router>
+      <div>
+        <BacktoTopBTN />
+      </div>
     </>
   );
 }

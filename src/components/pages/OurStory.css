@@ -1,65 +1,305 @@
 .Our_story .flex-row {
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
+.numbers-stat,
+.awards-wrapper {
+  padding: 1em 0;
+}
+.w-25 {
+  width: 50%;
+  display: block;
+  margin-bottom: 1.5em;
+}
+.w-25 .numbers {
+  width: 100%;
+  display: block;
+  margin-bottom: 1.5em;
+  max-width: 150px;
+  margin-inline: auto;
+}
+.w-25 .awards {
+  width: 100%;
+  max-width: 150px;
+  margin-inline: auto;
+  display: block;
+}
 
-.Our_story .box-right {
-  margin-inline: auto 0;
+.serving-the-comunity .main-text-wrapper {
+  margin-bottom: 1.5em;
 }
-.Our_story .width-70 {
-  width: 90%;
-  display: block;
-  padding-top: 1em;
-  padding-bottom: 1em;
+.serving-the-comunity .main-text-wrapper h6 {
+  margin-bottom: 0;
+  font-weight: 800;
+  line-height: 1.2;
+  font-size: 0.8rem;
 }
-.from-left {
-  width: 90%;
-  margin-inline: 0 auto;
-  display: block;
+.community-service .w-25 {
+  width: 100%;
 }
-.from-right {
-  width: 90%;
-  margin-inline: auto 0;
-  display: block;
+.community-service .w-25 .pic-wrapper {
+  background-color: white;
+  padding: 0.25em;
+  width: 100%;
+  max-width: 300px;
+  margin-inline: auto;
 }
-.Our_story .box-left h4,
-.Our_story .box-left p {
-  text-align: right;
+
+.community-service .w-25 .pic-wrapper h6 {
+  font-size: 0.7rem;
+  font-weight: 300;
 }
-.board-of-directors {
-  text-align: center;
+
+.community-service .w-25 .pic-wrapper .content {
+  background-color: white;
+  padding: 0.5em;
+}
+.community-service .w-25 .pic-wrapper .content h6 {
+  color: black;
+}
+.community-service .light-green-box .pic-wrapper {
+  background-color: var(--secondary-color);
+}
+.community-service .green-box .pic-wrapper,
+.community-service .green-box .pic-wrapper .content {
+  background-color: var(--primary-color);
+}
+.community-service .green-box .pic-wrapper .content h4,
+.community-service .green-box .pic-wrapper .content h6 {
+  color: var(--secondary-color);
+}
+
+.community-service .light-green-box .pic-wrapper,
+.community-service .light-green-box .pic-wrapper .content {
+  background-color: var(--secondary-color);
+}
+
+/*****hmo-insurance******/
+.serving-the-comunity .flex {
+  margin-top: 2em;
+}
+.serving-the-comunity .small-width,
+.serving-the-comunity .hmo-insurance {
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.serving-the-comunity .hmo-insurance .flex {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.serving-the-comunity .hmo-insurance .flex .Box {
+  margin-right: 0.5em;
+}
+.serving-the-comunity .hmo-insurance .flex .Box:last-child {
+  margin-right: 0;
+}
+
+.inset-box {
+  position: relative;
+  box-shadow: inset 0 3px 3px 0 rgba(0, 0, 0, 0.6);
+  border-bottom: 6px solid var(--secondary-color);
+}
+
+.inset-box .col-40 {
+  min-height: 160px;
+}
+.inset-box .col-60 {
+  display: none;
+}
+
+.inset-box h1 {
+  margin-bottom: 0;
+  padding: 0;
+  font-weight: 900;
+  font-family: var(--inter-font);
+  line-height: 1;
+}
+.inset-box h6 {
+  font-weight: 800;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+.absolute-text {
+  position: absolute;
+  top: 50;
+  left: 0;
+  margin-left: 2.5rem;
+  z-index: 99;
+}
+.absolute-text .content {
+  max-width: 350px;
 }
 
 @media (min-width: 600px) {
-  .Our_story .width-70 {
-    width: 80%;
+  .w-25 {
+    margin-bottom: 2em;
+  }
+  .absolute-text {
+    left: 10%;
+  }
+  .inset-box h1 {
+    line-height: 1.1;
+  }
+  .absolute-text .content {
+    max-width: 400px;
   }
 }
 @media (min-width: 768px) {
-  .Our_story .width-70 {
-    width: 70%;
+  .w-25 {
+    width: 25%;
+    margin-bottom: 0;
   }
-  .from-left {
-    width: 70%;
-    margin-inline: 0 auto;
+  .w-25 .awards {
+    max-width: 100px;
+  }
+  .community-service .w-25 {
+    padding: 0.5em;
+  }
+  .community-service .w-25 {
+    width: 50%;
+  }
+  .community-service .w-25 .pic-wrapper {
+    width: 100%;
+    max-width: 400px;
+  }
+  .serving-the-comunity .small-width,
+  .serving-the-comunity .hmo-insurance {
+    max-width: 600px;
+    margin-inline: auto;
+  }
+
+  .inset-box {
+    box-shadow: inset 3px 3px 3px 3px rgba(0, 0, 0, 0.9);
+    border-bottom: 6px solid var(--secondary-color);
+    padding: 0;
+    line-height: 0;
+    position: relative;
+  }
+  .inset-box .col-60 {
     display: block;
   }
-  .from-right {
-    width: 70%;
-    margin-inline: auto 0;
-    display: block;
+  .inset-box .col-40 {
+    min-height: auto;
+  }
+  .inset-box h1 {
+    font-weight: 900;
+  }
+  .inset-box h6 {
+    margin-bottom: 0.5em;
+  }
+  .absolute-text {
+    left: 5%;
+    top: 30%;
+    transform: translateY(-30%);
+    transform: translateX(-5%);
+  }
+  .absolute-text .content {
+    max-width: 350px;
+  }
+  .green-fade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 66, 32, 1),
+      rgba(0, 66, 32, 1),
+      rgba(0, 66, 32, 1),
+      rgba(0, 66, 32, 1),
+      rgba(0, 66, 32, 0.7),
+      rgba(0, 66, 32, 0.2),
+      rgba(0, 66, 32, 0.1),
+      rgba(0, 66, 32, 0.1)
+    );
+    background-position: center;
   }
 }
 @media (min-width: 992px) {
-  .Our_story .width-70 {
-    width: 60%;
+  .numbers-stat,
+  .awards-wrapper {
+    padding: 2em 0;
+  }
+  .w-25 .awards {
+    max-width: 125px;
+  }
+  .community-service .w-25 {
+    width: 25%;
+  }
+  .community-service .w-25 .pic-wrapper {
+    max-width: 400px;
+  }
+
+  .serving-the-comunity .small-width {
+    margin-inline: 0 auto;
+    max-width: 400px;
+  }
+  .serving-the-comunity .hmo-insurance {
+    margin-inline: auto 0;
+    max-width: 400px;
+  }
+  .inset-box h1 {
+    font-weight: 900;
+  }
+
+  .absolute-text .content {
+    max-width: 370px;
   }
 }
 @media (min-width: 1200px) {
-  .Our_story .width-70 {
-    width: 60%;
+  .numbers-stat,
+  .awards-wrapper {
+    padding: 3em 0;
+  }
+  .awards-wrapper .flex-row {
+    padding: 1em 0;
+  }
+  .w-25 .awards {
+    max-width: 150px;
+  }
+  .serving-the-comunity .main-text-wrapper h6 {
+    font-size: 0.85rem;
+  }
+  .serving-the-comunity .hmo-insurance {
+    max-width: 450px;
+  }
+  .absolute-text .content {
+    max-width: 470px;
+  }
+}
+@media (min-width: 1600px) {
+  .serving-the-comunity .hmo-insurance {
+    max-width: 600px;
+  }
+
+  .absolute-text .content {
+    max-width: 650px;
+  }
+  .inset-box h1 {
+    font-size: 2em;
+    line-height: 1.2;
+  }
+  .inset-box .doctor_patient {
+    height: 600px;
+  }
+  .absolute-text {
+    left: 10%;
+    top: 35%;
+    transform: translateY(-35%);
+    transform: translateX(-10%);
+  }
+}
+@media (min-width: 1800px) {
+  .absolute-text {
+    left: 15%;
+    transform: translateY(-35%);
+    transform: translateX(-15%);
   }
 }

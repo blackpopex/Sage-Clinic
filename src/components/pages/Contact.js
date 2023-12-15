@@ -6,7 +6,7 @@ import "./Contact.css";
 function Contact() {
   return (
     <>
-      <div className="Contact_us">
+      <div className="Contact_us section-header-margin-top">
         <Pagetitlesection pagetitle="Contact Us" />
         <section>
           <div className="container">

@@ -6,7 +6,7 @@ import "./BookAppointment.css";
 function BookAppointment() {
   return (
     <>
-      <div className="Book_Appointment">
+      <div className="Book_Appointment section-header-margin-top">
         <Pagetitlesection pagetitle="Request Appointment" />
         <section>
           <div className="container">
