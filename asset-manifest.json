@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Sage-Clinic/static/css/main.f790f8d5.css",
+    "main.js": "/Sage-Clinic/static/js/main.3e57c2cd.js",
+    "static/media/hero-image.jpg": "/Sage-Clinic/static/media/hero-image.1a692e6c24a582003d19.jpg",
+    "static/media/hero-image-large-laptop.jpg": "/Sage-Clinic/static/media/hero-image-large-laptop.fd238e8f1f03935566a2.jpg",
+    "static/media/hero-image-laptop.jpg": "/Sage-Clinic/static/media/hero-image-laptop.5829d6fdb269fffd9494.jpg",
+    "static/media/hero-image-mobile.jpg": "/Sage-Clinic/static/media/hero-image-mobile.1a87a3b2614eacd4db3e.jpg",
+    "static/media/Sage-logo.png": "/Sage-Clinic/static/media/Sage-logo.372d597c318f9123e8cc.png",
+    "static/media/header-bg.jpg": "/Sage-Clinic/static/media/header-bg.501d0ba7308a1432845e.jpg",
+    "index.html": "/Sage-Clinic/index.html",
+    "main.f790f8d5.css.map": "/Sage-Clinic/static/css/main.f790f8d5.css.map",
+    "main.3e57c2cd.js.map": "/Sage-Clinic/static/js/main.3e57c2cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f790f8d5.css",
+    "static/js/main.3e57c2cd.js"
+  ]
+}
