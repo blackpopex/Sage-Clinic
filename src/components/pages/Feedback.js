@@ -34,7 +34,7 @@ function Feedback() {
                     <div className="form-input-field m-tp">
                       <div className="form-row flex">
                         <div className="col-49_5">
-                          <label for="first_name">First Name:</label>
+                          <label htmlfor="first_name">First Name:</label>
                           <input
                             type="text"
                             name="yourFirstName"
@@ -42,7 +42,7 @@ function Feedback() {
                           />
                         </div>
                         <div className="col-49_5">
-                          <label for="last_name">Last Name:</label>
+                          <label htmlfor="last_name">Last Name:</label>
                           <input
                             type="text"
                             name="yourLastName"
@@ -52,7 +52,7 @@ function Feedback() {
                       </div>
                       <div className="form-row flex">
                         <div className="col-49_5">
-                          <label for="phone_number">Phone Number:</label>
+                          <label htmlfor="phone_number">Phone Number:</label>
                           <input
                             type="text"
                             name="phoneNumber"
@@ -60,12 +60,12 @@ function Feedback() {
                           />
                         </div>
                         <div className="col-49_5">
-                          <label for="Email">Email Address:</label>
+                          <label htmlfor="Email">Email Address:</label>
                           <input type="text" name="emailAddress" id="Email" />
                         </div>
                       </div>
                       <div className="form-row">
-                        <label for="feedback_msg">Feedback Message:</label>
+                        <label htmlfor="feedback_msg">Feedback Message:</label>
                         <textarea cols={5} rows="6"></textarea>
                         <button type="submit" className="green-color">
                           Submit

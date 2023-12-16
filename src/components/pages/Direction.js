@@ -24,8 +24,8 @@ function Direction() {
 
             <div className="m-tp2">
               <h5>Sage Clinic & Maternity Center</h5>
-              <p>2025 M Street, Northwest,</p>
-              <p>Washington, DC, 20036</p>
+              <p>29 Okere Ugborikoko Road, Warri,</p>
+              <p>332104, Delta State, Nigeria</p>
               <p>
                 <b>Phone:</b> 702-835-9700
               </p>
