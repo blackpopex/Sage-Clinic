@@ -34,12 +34,18 @@
 }
 .accoridion-wrapper .accordionpanel .content-wrapper {
   padding: 1em 0;
+  margin-bottom: 5em;
 }
 
 /*****width for picture accordion*****/
 /****WIDTHS*****/
 .width-35 {
   width: 100%;
+}
+@media (min-width: 600px) {
+  .accoridion-wrapper .accordionpanel .content-wrapper {
+    margin-bottom: 3em;
+  }
 }
 
 @media (min-width: 768px) {
@@ -56,9 +62,7 @@
     flex-direction: row;
     margin-bottom: 4em;
   }
-  .split:last-child {
-    margin-bottom: 10em;
-  }
+
   .align-center {
     display: flex;
     display: -ms-flexbox;
@@ -67,5 +71,14 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin-bottom: 4em;
+  }
+  .accoridion-wrapper .accordionpanel .content-wrapper {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .accoridion-wrapper .accordionpanel .content-wrapper {
+    margin-bottom: 3em;
   }
 }
