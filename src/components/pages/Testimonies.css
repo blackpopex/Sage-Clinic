@@ -6,6 +6,9 @@
   margin-top: 1em;
   margin-bottom: 1em;
 }
+.testifiers .colum-reverse {
+  flex-direction: column-reverse;
+}
 .testifiers {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -35,6 +38,9 @@
   }
   .testifiers .row {
     flex-direction: column;
+  }
+  .testifiers .colum-reverse {
+    flex-direction: column-reverse;
   }
   .testifiers .row .col-70 {
     width: 100%;
