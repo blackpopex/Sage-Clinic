@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HeadingParagraphButton from "../HeadingParagraphButton";
 import QuickNavigationBtn from "../QuickNavigationBtn";
 import Paragraph from "../Paragraph";
@@ -145,7 +145,7 @@ function Home() {
                     <h6 className="light-green-color">Clinic Days</h6>
 
                     <table>
-                      <tr>
+                      <tr data-aos="fade-up" data-aos-duration="3100">
                         <th>Gynaecology</th>
                         <td>Monday 9:00am - 5:00pm</td>
                       </tr>

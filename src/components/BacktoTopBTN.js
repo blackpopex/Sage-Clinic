@@ -7,7 +7,7 @@ function BacktoTopBTN() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 150) {
+      if (window.scrollY > 1000) {
         setBtn(true);
       } else {
         setBtn(false);
