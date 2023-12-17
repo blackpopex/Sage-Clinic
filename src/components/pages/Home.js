@@ -8,8 +8,13 @@ import Button from "../Button";
 import { Link } from "react-router-dom";
 import PictureTab from "../PictureTab";
 import Reasontab from "../Reasontab";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <section className="Hero-section section-header-margin-top ">
@@ -149,19 +154,19 @@ function Home() {
                         <th>Gynaecology</th>
                         <td>Monday 9:00am - 5:00pm</td>
                       </tr>
-                      <tr>
+                      <tr data-aos="fade-up" data-aos-duration="3000">
                         <th>Ante-Natal</th>
                         <td>Monday 9:00am - 5:00pm</td>
                       </tr>
-                      <tr>
+                      <tr data-aos="fade-up" data-aos-duration="2800">
                         <th>Immunization</th>
                         <td>Monday 9:00am - 5:00pm</td>
                       </tr>
-                      <tr>
+                      <tr data-aos="fade-up" data-aos-duration="2500">
                         <th>Echocardiography</th>
                         <td>Monday 9:00am - 5:00pm</td>
                       </tr>
-                      <tr>
+                      <tr data-aos="fade-up" data-aos-duration="2200">
                         <th>Ultrasound</th>
                         <td>Monday 9:00am - 5:00pm</td>
                       </tr>
@@ -192,7 +197,11 @@ function Home() {
                   <h3 className="green-color">You Should Choose Us</h3>
 
                   <div className="Reasons">
-                    <div className="green-bg-number-tag">
+                    <div
+                      className="green-bg-number-tag"
+                      data-aos="fade-up"
+                      data-aos-duration="2800"
+                    >
                       <Reasontab
                         h4Text="1"
                         h6Text="One"
@@ -200,7 +209,11 @@ function Home() {
                         pText="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
                       />
                     </div>
-                    <div className="light-green-bg-number-tag">
+                    <div
+                      className="light-green-bg-number-tag"
+                      data-aos="fade-up"
+                      data-aos-duration="2500"
+                    >
                       <Reasontab
                         h4Text="2"
                         h6Text="Two"
@@ -208,7 +221,11 @@ function Home() {
                         pText="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
                       />
                     </div>
-                    <div className="green-bg-number-tag">
+                    <div
+                      className="green-bg-number-tag"
+                      data-aos="fade-up"
+                      data-aos-duration="2200"
+                    >
                       <Reasontab
                         h4Text="3"
                         h6Text="Three"
