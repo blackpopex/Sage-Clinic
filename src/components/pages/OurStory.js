@@ -4,6 +4,7 @@ import Paragraph from "../Paragraph";
 import PictureTab from "../PictureTab";
 import Numbers from "../Numbers";
 import Box from "../Box";
+import CountUp from "react-countup";
 import "./OurStory.css";
 
 function OurStory() {
@@ -23,7 +24,7 @@ function OurStory() {
                   <Numbers h1Text={180} h6Text="Doctors" />
                 </div>
                 <div className="w-25">
-                  <Numbers h1Text={"3,200"} h6Text="Patient Satisfied" />
+                  <Numbers h1Text={3200} h6Text="Patient Satisfied" />
                 </div>
                 <div className="w-25">
                   <Numbers h1Text={30} h6Text="Years Experience" />
