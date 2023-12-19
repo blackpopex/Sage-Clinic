@@ -8,7 +8,7 @@
   position: fixed;
   bottom: 150px;
   right: 40px;
-  z-index: 99;
+  z-index: 999;
   width: 45px;
   height: 45px;
   border-radius: 52% 49% 53% 47% / 77% 77% 26% 27%;
