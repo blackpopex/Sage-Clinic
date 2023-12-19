@@ -39,9 +39,11 @@
 .Contact_us .form-row .col-95 textarea {
   padding: 0.7em;
   font-family: var(--inter-font);
+  font-family: var(--inter-font);
 }
 .Contact_us .form-row input[type="text"] {
   margin-bottom: 0.15em;
+  font-family: var(--inter-font);
 }
 .Contact_us .form-row button {
   margin-top: 0;

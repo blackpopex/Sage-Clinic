@@ -36,12 +36,15 @@
   padding: 0.5em;
   display: inline-block;
   resize: none;
+  font-family: var(--inter-font);
+  transition: all 1000ms;
 }
 .form-row input[type="text"]:focus,
 .form-row select:focus,
 .form-row textarea:focus {
   border: none;
   outline: none;
+  background-color: #c7e2c6;
 }
 
 .form-row .col-49_5 {
