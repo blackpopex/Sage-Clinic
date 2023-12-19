@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Pagetitlesection from "../Pagetitlesection";
 import Paragraph from "../Paragraph";
 import PictureTab from "../PictureTab";
 import Numbers from "../Numbers";
 import Box from "../Box";
-import CountUp from "react-countup";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./OurStory.css";
 
 function OurStory() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div className="Our_story section-header-margin-top ">
@@ -43,7 +47,11 @@ function OurStory() {
                 <div className="absolute-text">
                   <div className="content">
                     <h6 className="light-green-color">Our Approach</h6>
-                    <h1 className="white-color">
+                    <h1
+                      className="white-color"
+                      data-aos="fade-up"
+                      data-aos-duration="3000"
+                    >
                       Is the Powerful Bond, Between Us and Our Patient
                     </h1>
                   </div>
@@ -66,7 +74,11 @@ function OurStory() {
               <h3 className="text-center green-color">
                 Awards & Accreditation
               </h3>
-              <div className="flex-row m-tp3">
+              <div
+                className="flex-row m-tp3"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
                 <div className="w-25">
                   <img
                     src="/assets/images/awards/icon1.jpg"

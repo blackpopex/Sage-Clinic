@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import Pagetitlesection from "../Pagetitlesection";
 import DirectionBtn from "../DirectionBtn";
 import "./Direction.css";

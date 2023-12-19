@@ -97,7 +97,6 @@ h1 {
   font-family: var(--playfair-font);
   margin-bottom: 0.5em;
   font-weight: 800;
-  line-height: 1.35;
 }
 
 h3,
@@ -109,10 +108,10 @@ p,
   font-family: var(--inter-font);
   margin-bottom: 0.5em;
 }
-
+h1,
 h3,
 h4 {
-  line-height: 1.2;
+  line-height: 1;
 }
 
 h3 {

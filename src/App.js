@@ -18,6 +18,7 @@ import OurStory from "./components/pages/OurStory";
 import MissionVisionValues from "./components/pages/MissionVisionValues";
 import MeetOurTeam from "./components/pages/MeetOurTeam";
 import BacktoTopBTN from "./components/BacktoTopBTN";
+import Whatsapp from "./components/Whatsapp";
 
 function App() {
   return (
@@ -54,6 +55,10 @@ function App() {
       </Router>
       <div>
         <BacktoTopBTN />
+      </div>
+
+      <div>
+        <Whatsapp />
       </div>
     </>
   );

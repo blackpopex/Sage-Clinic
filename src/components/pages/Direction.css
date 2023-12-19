@@ -108,6 +108,27 @@ img.map_figure {
       opacity: 0.5;
     }
   }
+
+  @-webkit-keyframes animate-icon {
+    from {
+      transform: translateX(10px);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(-10px);
+      opacity: 0.5;
+    }
+  }
+  @-moz-keyframes animate-icon {
+    from {
+      transform: translateX(10px);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(-10px);
+      opacity: 0.5;
+    }
+  }
 }
 @media (min-width: 1200px) {
   img.map_figure {

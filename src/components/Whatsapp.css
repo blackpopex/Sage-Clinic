@@ -1,0 +1,109 @@
+.whatsapp-container {
+  position: fixed;
+  bottom: -50px;
+  right: -5px;
+  padding: 2em 2em 2em;
+  animation: fade-up 1000ms forwards;
+  animation-delay: 1000ms;
+  cursor: pointer;
+}
+
+@keyframes fade-up {
+  100% {
+    bottom: 180px;
+    opacity: 1;
+  }
+}
+.whatsapp-container .whatsappicon {
+  font-size: 2rem;
+  font-weight: 4rem;
+  display: block;
+  transition: all 500ms;
+  width: 100%;
+}
+
+.whatsapp-container .whatsappicon:hover {
+  animation-name: move-up-down;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move-up-down {
+  from {
+    transform: translateY(25px);
+  }
+  to {
+    transform: translateY(-25px);
+  }
+}
+
+@-webkit-keyframes move-up-down {
+  from {
+    transform: translateY(25px);
+  }
+  to {
+    transform: translateY(-25px);
+  }
+}
+@-moz-keyframes move-up-down {
+  from {
+    transform: translateY(25px);
+  }
+  to {
+    transform: translateY(-25px);
+  }
+}
+
+.whatsapp-container span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: var(--playfair-font);
+  font-weight: 600;
+  color: var(--secondary-color);
+  transform: rotateZ(10deg) translateX(50px);
+  opacity: 0;
+  transition: all 500ms;
+  font-size: 0.85rem;
+  visibility: hidden;
+}
+.whatsapp-container:hover span {
+  transform: rotateZ(0deg) translateX(20px);
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 768px) {
+  .whatsapp-container {
+    right: 30px;
+    padding: 2.2em 2em 2.2em;
+  }
+  .whatsapp-container .whatsappicon {
+    font-size: 2.2rem;
+  }
+
+  .whatsapp-container span {
+    transform: rotateZ(10deg) translateX(100px);
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .whatsapp-container {
+    bottom: -50px;
+    right: 80px;
+    padding: 2.5em 2em 2.5em;
+  }
+  @keyframes fade-up {
+    100% {
+      bottom: 110px;
+      opacity: 1;
+    }
+  }
+  .whatsapp-container .whatsappicon {
+    font-size: 2.5rem;
+  }
+  .whatsapp-container span {
+    left: 4px;
+  }
+}

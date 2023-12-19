@@ -19,6 +19,7 @@
   opacity: 0;
   transition: transform 0.75s ease-in-out, opacity 1s ease-in;
   text-align: center;
+  visibility: hidden;
 }
 
 #topBTN {
@@ -38,6 +39,7 @@
 .translate-btn {
   transform: translateY(0);
   opacity: 1;
+  visibility: visible;
 }
 
 @media (min-width: 768px) {
