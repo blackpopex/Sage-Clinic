@@ -1,12 +1,40 @@
 .test-wrapper h1 {
-  font-size: 8rem;
-  margin-bottom: -10px;
+  font-size: 5rem;
+  margin-bottom: 10px;
 }
 .test-wrapper ul li {
-  line-height: 1.62;
+  line-height: 1;
   margin-bottom: 1em;
   font-weight: 500;
 }
 .test-wrapper ul li:last-child {
   margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .test-wrapper h1 {
+    font-size: 6.5rem;
+  }
+  .test-wrapper ul li {
+    line-height: 1.2;
+  }
+}
+@media (min-width: 768px) {
+  .test-wrapper h1 {
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .test-wrapper h1 {
+    font-size: 7.5rem;
+  }
+  .test-wrapper ul li {
+    line-height: 1.62;
+  }
+}
+@media (min-width: 1600px) {
+  .test-wrapper h1 {
+    font-size: 8rem;
+  }
 }

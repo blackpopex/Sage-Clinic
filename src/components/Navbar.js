@@ -9,20 +9,6 @@ function Navbar() {
   const toggleMenu = () => setState(!click);
   const closeMobileMenu = () => setState(false);
 
-  var acc, i;
-  acc = document.getElementsByClassName("accordion");
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function () {
-      this.classList.toggle("active");
-      var dropdown = this.nextElementSibling;
-      if (dropdown.style.maxHeight) {
-        dropdown.style.maxHeight = null;
-      } else {
-        dropdown.style.maxHeight = dropdown.scrollHeight + "px";
-      }
-    });
-  }
-
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 100) {
@@ -31,6 +17,20 @@ function Navbar() {
         setNavbarPadding(false);
       }
     });
+
+    var acc, i;
+    acc = document.getElementsByClassName("accordion");
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var dropdown = this.nextElementSibling;
+        if (dropdown.style.maxHeight) {
+          dropdown.style.maxHeight = null;
+        } else {
+          dropdown.style.maxHeight = dropdown.scrollHeight + "px";
+        }
+      });
+    }
   }, []);
 
   return (
@@ -39,7 +39,7 @@ function Navbar() {
         <div className="top_header bg-green">
           <div className="container flex">
             <div className="brand-Wrapper">
-              <Link to="/">
+              <Link to="/" onClick={closeMobileMenu}>
                 <img
                   src={Logo}
                   alt="Sage Logo"

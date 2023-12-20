@@ -10,6 +10,7 @@ function Whatsapp() {
           href="https://wa.me/07059932224"
           className="whatsapp-btn"
           target="_blank"
+          aria-label="Chat on WhatsApp"
         >
           <Icon icon="logos:whatsapp-icon" className="whatsappicon" />
         </a>

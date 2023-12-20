@@ -1,7 +1,7 @@
 .whatsapp-container {
   position: fixed;
-  bottom: -50px;
-  right: -5px;
+  bottom: -100px;
+  right: -15px;
   padding: 2em 2em 2em;
   animation: fade-up 1000ms forwards;
   animation-delay: 1000ms;
@@ -11,12 +11,12 @@
 
 @keyframes fade-up {
   100% {
-    bottom: 180px;
+    bottom: 2px;
     opacity: 1;
   }
 }
 .whatsapp-container .whatsappicon {
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: 4rem;
   display: block;
   transition: all 500ms;

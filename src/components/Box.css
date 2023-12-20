@@ -29,13 +29,12 @@
 }
 @media (min-width: 768px) {
   .Box {
-    width: 140px;
-    min-height: 120px;
+    width: 120px;
+    min-height: 65px;
   }
 }
 @media (min-width: 992px) {
   .Box {
-    width: 120px;
     min-height: 70px;
     margin-inline: auto 0;
   }
