@@ -118,9 +118,14 @@ function Footer() {
                 &copy; {year} Sage Clinic & Maternity. All Rights Reserved.
               </span>
               <span className="green-line"></span>
-              <Link to="/" className="light-green-color remove-decor">
+              <a
+                href="https://blackpopex.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="light-green-color remove-decor"
+              >
                 Designed and Built by<b> Blackpopex</b>
-              </Link>
+              </a>
             </small>
           </div>
         </section>
