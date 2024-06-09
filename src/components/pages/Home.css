@@ -18,8 +18,8 @@
   width: 100%;
 }
 .hero-section-wrapper .heading-paragraph-text {
-  top: 50;
-  transform: translateY(50%);
+  top: 40;
+  transform: translateY(40%);
   text-align: center;
 }
 .hero-section-wrapper .h1Text {
@@ -31,6 +31,7 @@
   color: var(--white-color);
   line-height: 1.4;
   font-weight: 300;
+  font-size: 0.55em;
 }
 .hero-section-wrapper .button {
   color: var(--primary-color);
@@ -143,8 +144,8 @@
   }
   .hero-section-wrapper .pText {
     color: var(--white-color);
-    font-weight: 500;
-    max-width: 350px;
+    font-weight: 300;
+    max-width: 450px;
     line-height: 1.5;
   }
   .hero-section-wrapper .h1Text,
@@ -213,11 +214,11 @@
         rgba(0, 66, 32, 0.2),
         rgba(0, 66, 32, 0.1),
         rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1)
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.6)
       ),
       url("/public/assets/images/hero-image-large-laptop.jpg");
     min-height: 480px;
@@ -232,8 +233,8 @@
     line-height: 1;
   }
   .hero-section-wrapper .pText {
-    font-weight: 600;
-    max-width: 500px;
+    font-weight: 400;
+    max-width: 600px;
   }
   .hero-section-wrapper .button {
     font-weight: 800;
@@ -270,11 +271,11 @@
         rgba(0, 66, 32, 0.2),
         rgba(0, 66, 32, 0.1),
         rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1)
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.6)
       ),
       url("/public/assets/images/hero-image.jpg");
     min-height: 650px;
@@ -289,9 +290,9 @@
     line-height: 0.9;
   }
   .hero-section-wrapper .pText {
-    font-weight: 400;
+    font-weight: 300;
     max-width: 700px;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
   /****INTRODUCTION SECTION***/
   .Introduction-wrapper .h1Text {
@@ -375,6 +376,7 @@
     max-width: 250px;
     padding: 1em 0.5em;
     margin-bottom: 0;
+    height: 300px;
   }
 }
 

@@ -22,7 +22,7 @@ function Home() {
           <div className="container">
             <HeadingParagraphButton
               headingText="Welcome To Sage Clinic"
-              paragraphText="We are a consistently patient-first, world-class healthcare service provider and the leading private tertiary care organization in Nigeria."
+              paragraphText="We are Nigeria's top private tertiary care organization, constantly putting the needs of our patients first and offering top-notch healthcare services."
               btnText="Explore"
               Link="/Services"
             />
@@ -36,7 +36,7 @@ function Home() {
               <div className="col-60">
                 <HeadingParagraphButton
                   headingText="An excellent option for your medical care!"
-                  paragraphText="Sage Clinic Limited was founded on January 4th, 1978 by Dr. John E.O Amadasun, Dr. Med, FA (ORL), FWACS, FMC (ORL), FICS, MNES, Life-time Member, Nigerian Medical Association (NMA), and his Swiss wife- Mrs. Gratia Amadasun. The day before this memorable day, he had resigned from the government’s employ. "
+                  paragraphText="Dr. Chikaike Nnamdi Moses, Medical Director, (MB.BS (1989), FAGP (2013), DFM (2017)) founded Sage Hospital, a two-storey secondary care facility with forty (40) beds that first opened in the heart of Warri, Delta State, Nigeria, in 2000. Presently, forty percent of the hospital's patient admissions come from villages, both inside and outside Warri area."
                   btnText="Read More"
                   Link="/OurStory"
                 />
@@ -62,7 +62,7 @@ function Home() {
                   <div className="bg-light-green-btn">
                     <QuickNavigationBtn
                       iconifyIcon="mdi:map-marker"
-                      Link="/BookAppointment"
+                      Link="/Direction"
                       btnText="Get Driving Direction"
                       arrowIcon="ep:arrow-right"
                     />
@@ -70,7 +70,7 @@ function Home() {
                   <div className="bg-light-green-btn">
                     <QuickNavigationBtn
                       iconifyIcon="clarity:email-solid"
-                      Link="/Contack"
+                      Link="/Contact"
                       btnText="Leave a Message"
                       arrowIcon="ep:arrow-right"
                     />
@@ -94,7 +94,8 @@ function Home() {
           <div className="container">
             <h6 className="green-color">Some of Our</h6>
             <h3 className="light-green-color">Key Services</h3>
-            <Paragraph ptext="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
+            <Paragraph ptext="We collaborate with leading clinical leaders to provide outstanding patient experiences because we recognize that being a national leader in healthcare requires more than just medical knowledge—it takes a lot of heart. In addition to offering medical, obstetrics & gynecological services, we also offer a 24 hours emergency care services from licensed doctors." />
+            <Paragraph ptext="We are accredited to provide primary and secondary health care delivery by NHIA and private HMOS. " />
 
             <div className="Services-displayed">
               <div className="flex">
@@ -102,21 +103,21 @@ function Home() {
                   <ServicesBox
                     iconifyIcon="game-icons:ambulance"
                     h6Text="Ambulance"
-                    pText="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+                    pText="With its advanced life support apparatus, our ambulance can offer a range of emergency services, including ground transportation to our hospital location."
                   />
                 </div>
                 <div className="box bg-light-green ">
                   <ServicesBox
                     iconifyIcon="mdi:patient-outline"
                     h6Text="OutPatient"
-                    pText="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+                    pText="All medical consultations, procedures, and treatments, which are provided without requiring an overnight stay at a hospital, are referred to as outpatient care."
                   />
                 </div>
                 <div className="box bg-green">
                   <ServicesBox
                     iconifyIcon="medical-icon:i-surgery"
                     h6Text="Surgery"
-                    pText="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+                    pText="At Sage Clinic we offer worldwide recognized, skilled, highly trained, and empathetic surgical care. Our success rate is over 99.9%, trial will absolutely convince you."
                   />
                 </div>
               </div>
@@ -156,19 +157,19 @@ function Home() {
                       </tr>
                       <tr data-aos="fade-up" data-aos-duration="3000">
                         <th>Ante-Natal</th>
-                        <td>Monday 9:00am - 5:00pm</td>
+                        <td>Tuesday 9:00am - 5:00pm</td>
                       </tr>
                       <tr data-aos="fade-up" data-aos-duration="2800">
                         <th>Immunization</th>
-                        <td>Monday 9:00am - 5:00pm</td>
+                        <td>Wednesday 9:00am - 5:00pm</td>
                       </tr>
                       <tr data-aos="fade-up" data-aos-duration="2500">
                         <th>Echocardiography</th>
-                        <td>Monday 9:00am - 5:00pm</td>
+                        <td>Thursday 9:00am - 5:00pm</td>
                       </tr>
                       <tr data-aos="fade-up" data-aos-duration="2200">
                         <th>Ultrasound</th>
-                        <td>Monday 9:00am - 5:00pm</td>
+                        <td>Friday 9:00am - 5:00pm</td>
                       </tr>
                     </table>
                   </div>
@@ -186,8 +187,8 @@ function Home() {
                 <div className="image-text-wrapper">
                   <PictureTab
                     img="/assets/images/woman-smilling.jpg"
-                    maintext="Respiratory therapy: a young, but highly valued profession at IU Health"
-                    text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"
+                    maintext="My wonderful experience receiving medical attention and gracious hospitality from Sage Clinic"
+                    text="I recently had the pleasure of visiting Sage Clinic and I must say, I was blown away by the entire experience. From the moment I walked in, I was greeted with several smiles from the staff, creating a warm and welcoming atmosphere. The serene environment of the clinic added to the overall beauty of the place, making it a calming and peaceful space. The doctors at Sage Clinic are not only experienced and knowledgeable, but also kindhearted and polite. They took the time to listen to my concerns and provided me with the best possible care. I felt like I was in good hands throughout my entire visit. I cannot thank the team at Sage Clinic enough for their exceptional service. It is clear that they truly care about their patients and go above and beyond to ensure their well-being. I highly recommend Sage Clinic to anyone in need of medical care. Thank you for providing such a wonderful experience."
                   />
                 </div>
               </div>
@@ -205,8 +206,8 @@ function Home() {
                       <Reasontab
                         h4Text="1"
                         h6Text="One"
-                        h5Text="Moms Heal Together Group (In Person)"
-                        pText="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                        h5Text="Emergency"
+                        pText="To oversee our emergency aid services, we have experienced medical personnel. 365 days a year, 24 hours a day."
                       />
                     </div>
                     <div
@@ -217,8 +218,8 @@ function Home() {
                       <Reasontab
                         h4Text="2"
                         h6Text="Two"
-                        h5Text="Moms Heal Together Group (In Person)"
-                        pText="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                        h5Text="Quality Standards"
+                        pText="Providing complete patient care is what keeps us moving forward in our mission to make the faces of those in need happier."
                       />
                     </div>
                     <div
@@ -229,8 +230,8 @@ function Home() {
                       <Reasontab
                         h4Text="3"
                         h6Text="Three"
-                        h5Text="Moms Heal Together Group (In Person)"
-                        pText="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                        h5Text="Specialized Doctors"
+                        pText="With advanced training in a range of specialization areas, our group comprises specialists who hold national certifications."
                       />
                     </div>
                   </div>
