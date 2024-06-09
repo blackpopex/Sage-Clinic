@@ -1,11 +1,12 @@
 .Box {
   width: 100px;
   height: 50px;
-  padding: 1.5em 1em;
+  padding: 1.25em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .Box h5 {
   margin-bottom: 0.25em;
   line-height: 1;
@@ -18,9 +19,10 @@
 
 @media (min-width: 600px) {
   .Box {
-    width: 120px;
-    min-height: 100px;
-    padding: 0.5em;
+    width: 140px;
+    min-height: 80px;
+    padding: 0.25em;
+    margin-inline: auto;
   }
   .Box h5 {
     margin-bottom: 0.25em;
@@ -29,8 +31,9 @@
 }
 @media (min-width: 768px) {
   .Box {
-    width: 120px;
+    width: 100px;
     min-height: 65px;
+    margin-inline: auto 0;
   }
 }
 @media (min-width: 992px) {

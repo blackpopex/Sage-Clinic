@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import "./Footer.css";
 
 function Footer() {
+  const getDate = new Date();
+  const year = getDate.getFullYear();
   return (
     <div className="footer-wrapper bg-green">
       <footer className="container">
@@ -14,7 +16,7 @@ function Footer() {
                   Sage Clinic & Maternity
                 </h4>
                 <p className="light-green-color">
-                  Block 26, plot 10b boutowers admiralty way, lekki
+                  29 Okere Ugborikoko Road, Warri, 332104, Delta State, Nigeria
                 </p>
                 <p className="light-green-color">
                   <span>
@@ -113,7 +115,7 @@ function Footer() {
           <div className="row">
             <small>
               <span className="white-color copywrite">
-                &copy; 2024 Sage Clinic & Maternity. All Rights Reserved.
+                &copy; {year} Sage Clinic & Maternity. All Rights Reserved.
               </span>
               <span className="green-line"></span>
               <Link to="/" className="light-green-color remove-decor">

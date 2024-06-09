@@ -7,6 +7,7 @@ import Box from "../Box";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./OurStory.css";
+import Unorderlist5 from "../Unorderlist5";
 
 function OurStory() {
   useEffect(() => {
@@ -20,26 +21,43 @@ function OurStory() {
           <div className="container">
             <div className="first-section m-b3">
               <h1 className="green-color">Our Humble Begining</h1>
-              <Paragraph ptext="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."></Paragraph>
+              <Paragraph ptext="Dr. Chikaike Nnamdi Moses, Medical Director, (MB.BS (1989), FAGP (2013), DFM (2017)) founded Sage Hospital, a two-storey secondary care facility with forty (40) beds that first opened in the heart of Warri, Delta State, Nigeria, in 2000. Presently, forty percent of the hospital's patient admissions come from villages, both inside and outside Warri area. In addition to numerous other amenities, the hospital houses a maternity ward, pediatrics, an intensive care unit, operating rooms, and clinical laboratories."></Paragraph>
+              <Paragraph ptext="Sage Clinic has been a pioneer in disease detection and treatment for over eight years, putting it at the forefront of medical care. Above all, we want to offer every patient, both within and outside of our clinic, the best possible care and services."></Paragraph>
+              <Paragraph ptext="There's no denying that quality matters when selecting a hospital for high-quality medical services. Additionally, the hundreds of patients who receive care from the medical staff at Sage Clinic and Maternity Centre every year can rest knowing that the facility has a century-long history of offering healthcare in a convenient setting."></Paragraph>
+              <Paragraph ptext="We provide healthcare services to a wide range of patients, including locals, visiting dignitaries, and people from other states."></Paragraph>
+              <Paragraph ptext="Our clinical expertise encompasses a wide range of specialties, such as all subspecialty in surgery, child and maternal health, subspecialties in internal medicine. "></Paragraph>
             </div>
             <div className="numbers-stat">
               <div className="flex-row">
                 <div className="w-25">
-                  <Numbers h1Text={180} h6Text="Doctors" />
+                  <Numbers h1Text={12} h6Text="Doctors" />
                 </div>
                 <div className="w-25">
-                  <Numbers h1Text={3200} h6Text="Patient Satisfied" />
+                  <Numbers h1Text={10200} h6Text="Patient Satisfied" />
                 </div>
                 <div className="w-25">
-                  <Numbers h1Text={30} h6Text="Years Experience" />
+                  <Numbers h1Text={20} h6Text="Years Experience" />
                 </div>
                 <div className="w-25">
-                  <Numbers h1Text={100} h6Text="Certified Nurses" />
+                  <Numbers h1Text={50} h6Text="Certified Nurses" />
                 </div>
               </div>
             </div>
+
+            <div className="first-section m-b3">
+              <h4 className="green-color">Clinical Expertise</h4>
+              <Paragraph ptext="Sage Clinic provides a wide range of services in one convenient location. Our hospital's doctors are renowned for their clinical proficiency in:"></Paragraph>
+              <Unorderlist5
+                list1="Cardiovascular care"
+                list2="Emergency medicine"
+                list3="Neurology and neurosurgery"
+                list4="Obstetrics/gynecology"
+                list5="Surgical cases (General Surgery, Urology and Orthopedics)"
+              />
+            </div>
           </div>
         </section>
+
         <section className="bg-green inset-box">
           <div className="flex">
             <div className="col-40 bg-green">
@@ -119,36 +137,36 @@ function OurStory() {
                 <h3 className="light-green-color">
                   Giving Back to The Society
                 </h3>
-                <Paragraph ptext="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" />
+                <Paragraph ptext="Giving sacrificially to the welfare of others improves not only the lives of those in need but also our own. We contribute back to the community annually in an effort to promote health and guarantee that all patients have access to high-quality medical care. Some of the ways we give back to our community are listed below." />
               </div>
               <div className="community-service">
                 <div className="flex-row">
                   <div className="w-25">
                     <PictureTab
                       img="/assets/images/comunity-services/img1.jpg"
-                      maintext="Activity 1"
-                      text="Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum is simply "
+                      maintext="Engage youth programs"
+                      text="Our youth initiatives foster community integration and lay a solid foundation for multicultural awareness. "
                     />
                   </div>
                   <div className="w-25">
                     <PictureTab
                       img="/assets/images/comunity-services/img2.jpg"
-                      maintext="Activity 2"
-                      text="Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum is simply "
+                      maintext="Charity Care"
+                      text="Charity care is the medically care we provide to those who cannot afford it, either for free or at a reduced cost. "
                     />
                   </div>
                   <div className="w-25 light-green-box">
                     <PictureTab
                       img="/assets/images/comunity-services/img3.jpg"
-                      maintext="Activity 3"
-                      text="Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum is simply"
+                      maintext="Take part in cleanups"
+                      text="We partake in neighborhood cleanup, we believe that a clean neighborhood enhances everyone's quality of life."
                     />
                   </div>
                   <div className="w-25 green-box">
                     <PictureTab
                       img="/assets/images/comunity-services/img4.jpg"
-                      maintext="Activity 4"
-                      text="Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum is simply"
+                      maintext="Awareness Campaign"
+                      text="Our health campaigns play a crucial role in helping patients prioritize their health, and build enduring relationships with us."
                     />
                   </div>
                 </div>
@@ -167,7 +185,13 @@ function OurStory() {
                   <h4 className="light-green-color small-width">
                     We support major health insurance company
                   </h4>
-                  <Paragraph ptext="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
+                  <p>
+                    {" "}
+                    Discover our all-inclusive health coverage at Sage Clinic
+                    with approved plans; we handle the filing of claims for you.
+                    For questions about insurance, please call{" "}
+                    <b className="light-green-color">+234806 847 0299.</b>
+                  </p>
                 </div>
                 <div className="col-60">
                   <div className="hmo-insurance">

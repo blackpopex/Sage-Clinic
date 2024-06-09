@@ -14,9 +14,9 @@ function Visitors() {
         <div className="container">
           <section>
             <div className="m-b3">
-              <Paragraph ptext="We realize that spending time with your loved one is important to the healing process. As a health care organization, the health and safety of our patients, physicians, staff and visitors are our top priority." />
+              <Paragraph ptext="We understand the importance of spending time with your loved one in order to promote healing. The wellbeing and security of our patients, doctors, employees, and guests is our first concern as a healthcare facility." />
               <Unorderlist2
-                list1="We have a visitation check-in system at our main lobbies, the Wingate building and Fairmount entrance. To help ensure a smooth and quick process"
+                list1="We have a visitation check-in system at our main lobbies. To help ensure a smooth and quick process."
                 list2="For the safety of patients and staff, please stay in the patient’s room while visiting."
               />
             </div>
@@ -65,13 +65,13 @@ function Visitors() {
               />
             </div>
             <div className="m-b3">
-              <Unorderlist3
+              <Unorderlist2
                 headingText="Overnight stay"
                 list1="One visitor per patient."
                 list2="Visitor must be age 18 or older."
-                list3="No in and out privileges after 10 p.m. Visitors who leave after 10 p.m. may return at 6 a.m."
               />
             </div>
+            <Paragraph ptext="No in and out privileges after 10 p.m. Visitors who leave after 10 p.m. may return at 6 a.m"></Paragraph>
           </section>
         </div>
       </div>
