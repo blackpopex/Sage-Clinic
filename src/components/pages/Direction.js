@@ -13,12 +13,13 @@ function Direction() {
               Direction to Sage Clinic and Maternity
             </h3>
             <p>
-              We know that hospitals can be confusing and finding your way
-              around can be difficult, so please do ask for help.
+              We know that locating a particular hospitals can be confusing and
+              finding your way around can be difficult, so please do ask for
+              help.
             </p>
             <p>
-              To find directions to Sage Clinic in Warri, Delta State, see the
-              map below.
+              To find directions to Sage Clinic in Warri, Delta State, Nigeria,
+              see the map below.
             </p>
 
             <div className="m-tp2">

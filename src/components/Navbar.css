@@ -6,7 +6,7 @@ header {
   transition: all 1s ease;
 }
 .top_header {
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
   position: relative;
   z-index: 99;
   transition: all 1s ease;
@@ -98,7 +98,7 @@ header {
 /****down_header****/
 .down_header {
   padding: 0.05em 0;
-  box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.5);
   border-bottom: 4px solid var(--secondary-color);
 }
 
@@ -238,7 +238,6 @@ nav .nav-Links,
   }
   .down_header {
     position: relative;
-    box-shadow: none;
   }
   .mobileMenu {
     position: static;

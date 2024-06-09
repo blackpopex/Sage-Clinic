@@ -11,9 +11,9 @@ function BookAppointment() {
         <section>
           <div className="container">
             <h3 className="green-color form-width-header">
-              For urgent medical needs, please give us a call.
+              If you require emergency medical attention, please call us.
             </h3>
-            <Paragraph ptext="Please contact the Sage Clinic front desk at +234 (0) 807 420 2835 to make an appointment or to find out if the clinic handles a certain disease. You can also fill out the form below to schedule an appointment. " />
+            <Paragraph ptext="For appointment scheduling or to inquire about the clinic's ability to treat a particular illness, please call the Sage Clinic front desk at +234 (0) 807 420 2835. " />
 
             <div className="m-tp3 form-width">
               <div className="form-container">

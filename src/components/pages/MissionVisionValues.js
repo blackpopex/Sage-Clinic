@@ -4,6 +4,8 @@ import Paragraph from "../Paragraph";
 import Unorderlist2 from "../Unorderlist2";
 import { Icon } from "@iconify/react";
 import "./MissionVisionValues.css";
+import Unorderlist1 from "../Unorderlist1";
+import Unorderlist3 from "../Unorderlist3";
 
 function MissionVisionValues() {
   return (
@@ -13,7 +15,8 @@ function MissionVisionValues() {
         <div className="container">
           <section className="introductory-pararaph">
             <h3 className="green-color">Key Statements</h3>
-            <Paragraph ptext="A healthcare provider's mission, vision, and values statements help them determine exactly what they want to accomplish and how they can give their patients the kind of treatment they deserve.A healthcare provider's mission, vision, and values statements help them determine exactly what they want to accomplish and how they can give their patients the kind of treatment they deserve." />
+            <Paragraph ptext="The key statements of a healthcare provider aid in defining their goals and guiding them in providing their patients with the quality of care they need." />
+            <Paragraph ptext="Our mission, vision, and values, as well as the reasons Sage Clinic has been in operation for more than 20 years, are communicated in our core statements. They serve as the connection that binds us all together." />
           </section>
           <section>
             <div className="mission_vision_values">
@@ -27,10 +30,7 @@ function MissionVisionValues() {
                   </div>
                 </div>
                 <div className="col-70">
-                  <Unorderlist2
-                    list1="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
-                    list2="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an "
-                  />
+                  <Unorderlist1 list1="Our goal is to deliver patient-centered healthcare that is exceptional in terms of quality, service, and accessibility while maintaining our integrity and evolving as needed to better serve our patients." />
                 </div>
               </div>
               <div className="row flex vision-row">
@@ -44,8 +44,8 @@ function MissionVisionValues() {
                 </div>
                 <div className="col-50">
                   <Unorderlist2
-                    list1="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
-                    list2="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an "
+                    list1="Regardless of a person's race, age, language, or religion, our vision is to offer them an exceptional patient experience."
+                    list2="Our community's goal is for everyone to have a healthier lifestyle, earn the trust of patients by being agents of positive change who, in turn, inspire hope for humanity."
                   />
                 </div>
               </div>
@@ -59,9 +59,10 @@ function MissionVisionValues() {
                   </div>
                 </div>
                 <div className="col-70">
-                  <Unorderlist2
-                    list1="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
-                    list2="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an "
+                  <Unorderlist3
+                    list1="The patient is the main priority at all times. Patient care is our primary focus."
+                    list2="We listen with compassion. We pay attention to the problems that our patients are facing, we respect them, and we try our best to assist."
+                    list3="We believe that patients deserve to have timely access to health care and that our systems should reflect this value. "
                   />
                 </div>
               </div>

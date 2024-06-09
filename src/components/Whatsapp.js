@@ -7,7 +7,7 @@ function Whatsapp() {
     <>
       <div className="whatsapp-container">
         <a
-          href="https://wa.me/07059932224"
+          href="https://wa.me/+2347059932224"
           className="whatsapp-btn"
           target="_blank"
           aria-label="Chat on WhatsApp"

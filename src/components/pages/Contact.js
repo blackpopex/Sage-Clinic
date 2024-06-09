@@ -2,6 +2,7 @@ import React from "react";
 import Pagetitlesection from "../Pagetitlesection";
 import { Icon } from "@iconify/react";
 import "./Contact.css";
+import Paragraph from "../Paragraph";
 
 function Contact() {
   return (
@@ -35,10 +36,7 @@ function Contact() {
             </table>
 
             <div className="contact-information table-width">
-              <p>
-                if you still have a question about Sage Clinic & Maternity,
-                kindly complete the form below
-              </p>
+              <Paragraph ptext="Please fill out the form below if you have any additional questions concerning Sage Clinic & Maternity." />
               <div className="form-width">
                 <h4 className="green-color">Contact Information</h4>
                 <form id="myForm" action="action_page.php">
@@ -94,14 +92,15 @@ function Contact() {
                 <h5 className="light-green-color">
                   <Icon icon="ion:home" id="email" /> <span>Our Location</span>
                 </h5>
-                <p>2051 M Street, Northwest, Washington, DC, 20036.</p>
+                <p>29 Okere Ugborikoko Road, Warri,</p>
+                <p>332104, Delta State, Nigeria</p>
                 <p>
                   <a
                     href="https://www.google.com/maps/dir//Sage+Clinic,+29+Okere+Ugborikoko+Road,+Warri,+332104,+Delta/@5.5346587,5.7525573,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1041ad0c761eb58b:0x5ae911c432fef009!2m2!1d5.7551322!2d5.5346587?entry=ttu"
                     target="_blank"
                     className="green-color remove-decor,"
                   >
-                    <b>Get Driving Direction</b>
+                    <b className="Direction">Get Driving Direction</b>
                   </a>
                 </p>
               </div>

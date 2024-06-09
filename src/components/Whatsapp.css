@@ -97,7 +97,7 @@
   }
   @keyframes fade-up {
     100% {
-      bottom: 110px;
+      bottom: 15px;
       opacity: 1;
     }
   }

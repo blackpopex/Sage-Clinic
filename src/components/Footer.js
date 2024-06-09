@@ -113,7 +113,7 @@ function Footer() {
           <div className="row">
             <small>
               <span className="white-color copywrite">
-                &copy; 2023 Sage Clinic & Maternity. All Rights Reserved.
+                &copy; 2024 Sage Clinic & Maternity. All Rights Reserved.
               </span>
               <span className="green-line"></span>
               <Link to="/" className="light-green-color remove-decor">

@@ -100,6 +100,7 @@
   }
   .Patient_feedback .sm-width {
     max-width: 400px;
+    padding-right: 5em;
   }
   .Patient_feedback .feedback-image {
     max-width: 500px;
@@ -136,6 +137,7 @@
   }
   .Patient_feedback .sm-width {
     max-width: 450px;
+    padding-right: 4.5em;
   }
   .Patient_feedback .feedback-image {
     max-width: 600px;
@@ -148,7 +150,7 @@
     top: 810px;
   }
   .Patient_feedback .position-right.feedback-line {
-    margin-top: 40px;
+    margin-top: 70px;
   }
 }
 @media (min-width: 1400px) {
@@ -160,6 +162,7 @@
   }
   .Patient_feedback .sm-width {
     max-width: 600px;
+    padding-right: 2em;
   }
   .Patient_feedback .feedback-image {
     max-width: 800px;
@@ -176,6 +179,6 @@
   }
   .Patient_feedback .position-right.feedback-line {
     max-width: 1000px;
-    margin-top: 35px;
+    margin-top: 70px;
   }
 }

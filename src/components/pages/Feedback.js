@@ -15,9 +15,13 @@ function Feedback() {
                   Your Feedback Makes Us Serve You Better
                 </h1>
                 <p className="sm-width">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy Lorem Ipsum
+                  We appreciate you allowing us to be of service to you. At Sage
+                  Clinic, our core values are complete satisfaction,
+                  high-quality service, and patient safety. We genuinely ask
+                  that you take a time to provide us with your thoughts and
+                  comments regarding our hospital services so that we can
+                  continue to strive to provide you with the finest care
+                  possible.
                 </p>
               </div>
               <div className="colum-50 position-right">

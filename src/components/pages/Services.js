@@ -3,6 +3,7 @@ import Pagetitlesection from "../Pagetitlesection";
 import Testnames from "../Testnames";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Paragraph from "../Paragraph";
 
 function Services() {
   useEffect(() => {
@@ -17,11 +18,8 @@ function Services() {
             <h3 className="green-color spec-width">
               Sage Clinic is where your optima treatment begins.
             </h3>
-            <p>
-              simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the
-              1500s, when an unknown printer took a galley
-            </p>
+            <Paragraph ptext="  In order to be healthy, men, women, and children all have specific needs that must be met. These needs vary depending on the stage of life, especially for those who have been diagnosed with a medical condition. Thus, the knowledgeable medical professionals and support personnel at Sage Clinic are prepared to assist you in maintaining and even improving your health." />
+            <Paragraph ptext="Our medical specialists are here for you with diverse specialized services, including:" />
             <div className="listed-services">
               <div data-aos="fade-up" data-aos-duration="3100">
                 <Testnames
